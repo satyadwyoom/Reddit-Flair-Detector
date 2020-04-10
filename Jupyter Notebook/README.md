@@ -57,7 +57,7 @@
 
 5. **DEPLOYMENT**
     * A Flask Web App was deployed on heroku.
-    * [Link to Web App](https://reddit-flare-detector.herokuapp.com/)
+    * [Link to Web App](https://reddit-flair-detector-api.herokuapp.com/)
     * For automated testing send the post request to :
     ```
     https://reddit-flair-detector-api.herokuapp.com/automated_testing
