@@ -40,4 +40,4 @@ https://www.reddit.com/r/india/comments/fyc91z/oxford_covid19_government_respons
 * [DATASET EXTRACTION](https://github.com/satya29m3/Reddit-Flair-Detector/tree/master/Jupyter%20Notebook/reddit_data_load.ipynb)
 * [DATASET VISUALIZATION](https://github.com/satya29m3/Reddit-Flair-Detector/tree/master/Jupyter%20Notebook/Data_visualization.ipynb)
 * [TRAINING ML MODELS](https://github.com/satya29m3/Reddit-Flair-Detector/tree/master/Jupyter%20Notebook/Training_model_ML_implementaion.ipynb)
-* [QUICK OVERVIEW OF TRAINING]()
+* [QUICK OVERVIEW OF TRAINING](https://github.com/satya29m3/Reddit-Flair-Detector/blob/master/Jupyter%20Notebook/README.md)
