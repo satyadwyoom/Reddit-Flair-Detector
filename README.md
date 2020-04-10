@@ -3,7 +3,7 @@
 To build a classifier which could predict the Flair of the [_r/india_](https://www.reddit.com/r/india/) post
 <br>
 <br>
-**Link to the project** : [Reddit-Flair-Detector](https://reddit-flare-detector.herokuapp.com/)
+**Link to the project** : [Reddit-Flair-Detector](https://reddit-flair-detector-api.herokuapp.com/)
 <br>
 <br>
 **Link to automated testing send the post request to:**
