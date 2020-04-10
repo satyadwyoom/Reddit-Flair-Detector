@@ -1,1 +1,30 @@
-# Reddit-Flare-Detector
+# **Reddit-Flair-Detector**
+**AIM :**<br> 
+To build a classifier which could predict the Flair of the [_r/india_](https://www.reddit.com/r/india/) post
+<br>
+<br>
+**Link to the project** : [Reddit-Flair-Detector](https://reddit-flare-detector.herokuapp.com/)
+<br>
+<br>
+**Link to automated testing endpoint :**  &emsp;[/automated_testing](https://reddit-flair-detector-api.herokuapp.com/automated_testing)
+
+**Quickstart :**
+```
+$ git clone https://github.com/satya29m3/Reddit-Flair-Detector.git
+```
+```
+$ pip install -r requirements.txt
+```
+```
+$ python3 app.py
+```
+
+**INPUT FORMAT :**&emsp;  _url_ to [_r/india_](https://www.reddit.com/r/india/) posts<br />
+
+Example : 
+
+>https://www.reddit.com/r/india/comments/fyc91z/oxford_covid19_government_response_trackersource/
+<br>
+
+**OUTPUT :**&emsp; _Flair_ 
+
