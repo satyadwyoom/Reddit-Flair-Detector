@@ -22,8 +22,9 @@ $ python3 app.py
 **INPUT FORMAT :**&emsp;  _url_ to [_r/india_](https://www.reddit.com/r/india/) posts<br />
 
 Example : 
-
->https://www.reddit.com/r/india/comments/fyc91z/oxford_covid19_government_response_trackersource/
+```
+https://www.reddit.com/r/india/comments/fyc91z/oxford_covid19_government_response_trackersource/
+```
 <br>
 
 **OUTPUT :**&emsp; _Flair_ 
