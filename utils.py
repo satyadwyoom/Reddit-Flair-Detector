@@ -1,15 +1,15 @@
-import nltk
-nltk.download('all')
 from nltk.corpus import stopwords
 from nltk.tokenize import TweetTokenizer
+from nltk.stem.porter import PorterStemmer 
 import praw
 import pickle
 import numpy as np
 
 def preprocess(x):
     tokenizer = TweetTokenizer()
+    stemmer = PorterStemmer()
     tokens = tokenizer.tokenize(x)
-    toks = [i for i in tokens if i not in list(stopwords.words('english'))]
+    toks = [stemmer.stem(i) for i in tokens if i not in list(stopwords.words('english'))]
     return ' '.join(toks)
 
 def model_prediction(url):
