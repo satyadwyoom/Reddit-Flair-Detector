@@ -26,20 +26,18 @@ def automated_testing():
     try:
         r = request.files['']
         filename = secure_filename(r.filename)
+        r.save(os.path.join('uploaded_data',filename))
+
+        with open('uploaded_data/'+filename,'r') as f:
+            data = f.read()
+            ret_val = dict()
+            for i in data.split():
+                prediction = utils.model_prediction(i)
+                ret_val[i] = prediction
+            return jsonify(ret_val)
     except:
-        return 'please correctly send the request'
+        return 'please properly send the request'
 
-    r.save(os.path.join('uploaded_data',filename))
-
-    with open('uploaded_data/'+filename,'r') as f:
-        data = f.read()
-        ret_val = dict()
-        for i in data.split():
-            prediction = utils.model_prediction(i)
-            ret_val[i] = prediction
-        return jsonify(ret_val)
-
-    return "donononnonn"
 
 
 if(__name__)=='__main__':
