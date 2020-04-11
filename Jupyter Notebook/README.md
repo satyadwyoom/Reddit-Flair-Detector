@@ -94,4 +94,4 @@
     https://reddit-flair-detector-api.herokuapp.com/automated_testing
     ```
 6. **NOTE :**
-   * Results obtained while using a GRU based RNN were not good enough due to dataset Limitaions. But these limitaions can be overcomed with a Larger dataset because Deep-Learning approaches tends to deliver far better accuracies as compared to normal approaches as the amount of data increases
+   * Results obtained while using a GRU based RNN were not good enough due to dataset Limitaions. But these limitations can be overcomed with a Larger dataset because Deep-Learning approaches tends to deliver far better accuracies as compared to normal approaches as the amount of data increases.
