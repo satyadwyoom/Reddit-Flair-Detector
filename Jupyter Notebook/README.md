@@ -93,3 +93,5 @@
     ```
     https://reddit-flair-detector-api.herokuapp.com/automated_testing
     ```
+6. **NOTE :**
+   * Better results can be obtained using a larger dataset and Deep-Learning Techniques Like Recurrent Neural Networks. Results obtained while using a GRU based RNN were not good enough due to dataset Limitaions.
