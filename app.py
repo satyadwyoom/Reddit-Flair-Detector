@@ -23,8 +23,11 @@ def predict():
 
 @app.route('/automated_testing',methods=['POST'])
 def automated_testing():
-    r = request.files['']
-    filename = secure_filename(r.filename)
+    try:
+        r = request.files['']
+        filename = secure_filename(r.filename)
+    except:
+        return 'please correctly send the request'
 
     r.save(os.path.join('uploaded_data',filename))
 
