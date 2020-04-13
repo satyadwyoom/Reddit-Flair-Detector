@@ -30,7 +30,7 @@ https://www.reddit.com/r/india/comments/fyc91z/oxford_covid19_government_respons
 ```
 <br>
 
-**OUTPUT :**&emsp; _Flair_ 
+**OUTPUT :**&emsp; Flair Type 
 <br />
 <br>
 ## **QUICK LINKS :**
