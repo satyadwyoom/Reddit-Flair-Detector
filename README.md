@@ -16,10 +16,10 @@ https://reddit-flair-detector-api.herokuapp.com/automated_testing
 $ git clone https://github.com/satya29m3/Reddit-Flair-Detector.git
 ```
 ```
-$ pip install -r requirements.txt
-```
-```
 $ cd Reddit-Flair-Detector/
+```
+```
+$ pip install -r requirements.txt
 ```
 ```
 $ python3 app.py
