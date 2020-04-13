@@ -19,6 +19,9 @@ $ git clone https://github.com/satya29m3/Reddit-Flair-Detector.git
 $ pip install -r requirements.txt
 ```
 ```
+$ cd Reddit-Flair-Detector/
+```
+```
 $ python3 app.py
 ```
 
