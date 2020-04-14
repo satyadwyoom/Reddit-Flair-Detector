@@ -1,5 +1,5 @@
 import nltk
-nltk.download('all')
+# nltk.download('all')
 from nltk.corpus import stopwords
 from nltk.tokenize import TweetTokenizer
 from nltk.stem.porter import PorterStemmer 
