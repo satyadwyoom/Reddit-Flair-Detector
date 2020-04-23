@@ -12,14 +12,14 @@ app = Flask(__name__)
 
 @app.route('/')
 def home() :
-    return render_template('index.html')
+    return render_template('design.html')
 
 @app.route('/predict',methods=['POST'])
 def predict():
 
     url = request.form['URL']
     prediction_text = 'predicted flare : ' + utils.model_prediction(url)
-    return render_template('index.html',prediction_text= prediction_text)
+    return render_template('design.html',prediction_text= prediction_text)
 
 @app.route('/automated_testing',methods=['POST'])
 def automated_testing():
