@@ -24,7 +24,7 @@ def predict():
 @app.route('/automated_testing',methods=['POST'])
 def automated_testing():
     try:
-        r = request.files['']
+        r = request.files['upload_file']
         filename = secure_filename(r.filename)
         r.save(os.path.join('uploaded_data',filename))
 
