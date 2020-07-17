@@ -20,10 +20,10 @@ def model_prediction(url):
 
     # #### ENTER YOUR CREDENTIALS #### #
 
-    client_id = 'dip10KQQt-Xg3w'
-    secret = '6R5k7o8Yf3NTfdTI3-TVPMXLIeE'
-    username = 'midas_task'
-    password = '123456789'
+    client_id = ''
+    secret = ''
+    username = ''
+    password = ''
 
     ### NOT NECESSARY TO CHANGE ####
     user_agent = 'flair_task'
